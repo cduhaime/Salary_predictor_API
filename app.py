@@ -60,3 +60,4 @@ def predict():
 
     # return the result as a JSON response
     return json.dumps({"predicted_salary": salary_prediction_value})
+skip_app_build: True
